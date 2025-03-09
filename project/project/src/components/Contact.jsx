@@ -17,6 +17,7 @@ const Contact = () => {
           </h2>
           <p className="text-coffee-600 max-w-2xl mx-auto">
             I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            Whether you're looking to collaborate on something new or just want to say hello, feel free to reach out!
           </p>
         </motion.div>
 
@@ -91,6 +92,18 @@ const Contact = () => {
             </div>
           </motion.div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="text-center mt-12"
+        >
+          <p className="text-coffee-600">
+            Whether you're looking for a partner in your next big project or seeking new opportunities to collaborate, I'm always ready for a challenge. Let's create something amazing together!
+          </p>
+        </motion.div>
       </div>
     </section>
   )
