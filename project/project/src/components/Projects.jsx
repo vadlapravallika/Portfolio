@@ -7,7 +7,7 @@ const Projects = () => {
       title: 'PDF Summarizer Web Application',
       description: 'Flask web app with OpenAI GPT-3.5 API for PDF summarization, featuring caching in SQLite and responsive UI with CSS animations.',
       tech: ['Flask', 'OpenAI API', 'SQLite', 'CSS'],
-      github: 'https://github.com/pravallika/pdf-summarizer',
+      github: 'https://github.com/vadlapravallika/PDF-Summerizer',
       live: '#',
       image: 'https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1000&q=80'
     },
@@ -15,16 +15,16 @@ const Projects = () => {
       title: 'Movie Database Application',
       description: 'Full-stack movie database system with secure RESTful APIs for CRUD operations and user authentication.',
       tech: ['Node.js', 'Express.js', 'MongoDB Atlas', 'REST API'],
-      github: 'https://github.com/pravallika/movie-database',
-      live: '#',
+      github: 'https://github.com/vadlapravallika/moviedatabase',
+      live: 'https://moviedatabase-one.vercel.app/',
       image: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=1000&q=80'
     },
     {
       title: 'Mood Music App',
       description: 'Personalized music app with advanced routing and global state management using React Context API.',
       tech: ['React.js', 'Tailwind CSS', 'Context API', 'React Router'],
-      github: 'https://github.com/pravallika/mood-music',
-      live: '#',
+      github: 'https://github.com/vadlapravallika/moodmusic-app',
+      live: 'https://moodmusic-app-valli-git-main-pravallika-vadlas-projects.vercel.app/',
       image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1000&q=80'
     }
   ]
