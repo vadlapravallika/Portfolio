@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Lato:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #8B6150;
+  --secondary-color: #D4B8B0;
+  --background-color: #F5E6E0;
+  --text-color: #3A2720;
+}
+
+body {
+  @apply bg-coffee-50 text-coffee-800 font-lato;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-marcellus;
+}
+
+.section-padding {
+  @apply py-20 px-4 md:px-8 lg:px-16;
+}
+
+.hover-effect {
+  @apply transition-all duration-300 ease-in-out hover:scale-105;
+}
+
+.coffee-gradient {
+  background: linear-gradient(135deg, #8B6150 0%, #D4B8B0 100%);
+}
