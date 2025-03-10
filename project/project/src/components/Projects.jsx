@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import portfolioImg from '../assets/portfolio.png';
+import InventorymangementsystemImg from '../assets/Inventorymangementsystem.jpg'
 
 const Projects = () => {
   const carouselRef = useRef(null);
@@ -12,7 +13,7 @@ const Projects = () => {
       description: 'JavaFX-based inventory system with MySQL integration, implementing CRUD operations and PDF invoice generation.',
       tech: ['JavaFX', 'MySQL', 'MVC', 'PDF Generation'],
       github: 'https://github.com/vadlapravallika/Java-InventoryManagementProject',
-      image: 'https://www.lovelycoding.org/wp-content/uploads/2018/10/Inventory-Management-System-Project.png',
+      image: InventorymangementsystemImg,
     },
     {
       title: 'PDF Summarizer Web Application',
@@ -43,7 +44,7 @@ const Projects = () => {
       description: 'Personal portfolio website showcasing projects and skills, built with modern web technologies for a responsive and interactive user experience.',
       tech: ['React.js', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
       github: 'https://github.com/vadlapravallika/Portfolio',
-      live: 'https://portfolio-orpin-chi-39.vercel.app/',
+      live: 'https://portfolio-pravalli.vercel.app/',
       image: portfolioImg, // Correct usage of the imported variable
     },
   ];
