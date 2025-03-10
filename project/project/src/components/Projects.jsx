@@ -11,8 +11,7 @@ const Projects = () => {
       title: 'Inventory Management System',
       description: 'JavaFX-based inventory system with MySQL integration, implementing CRUD operations and PDF invoice generation.',
       tech: ['JavaFX', 'MySQL', 'MVC', 'PDF Generation'],
-      github: '#',
-      live: '#',
+      github: 'https://github.com/vadlapravallika/Java-InventoryManagementProject',
       image: 'https://www.lovelycoding.org/wp-content/uploads/2018/10/Inventory-Management-System-Project.png',
     },
     {
@@ -43,8 +42,8 @@ const Projects = () => {
       title: 'Portfolio Website',
       description: 'Personal portfolio website showcasing projects and skills, built with modern web technologies for a responsive and interactive user experience.',
       tech: ['React.js', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
-      github: 'https://github.com/vadlapravallika/portfolio-website',
-      live: 'https://vadlapravallika.vercel.app/',
+      github: 'https://github.com/vadlapravallika/Portfolio',
+      live: 'https://portfolio-orpin-chi-39.vercel.app/',
       image: portfolioImg, // Correct usage of the imported variable
     },
   ];
