@@ -29,6 +29,7 @@ const Hero = () => {
             <TypewriterEffect
               options={{
                 strings: [
+                  'FullStack Developer',
                   'Frontend Developer',
                   'UI/UX Enthusiast',
                   'Coffee Lover ☕',

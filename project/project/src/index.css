@@ -30,3 +30,22 @@ h1, h2, h3, h4, h5, h6 {
 .coffee-gradient {
   background: linear-gradient(135deg, #8B6150 0%, #D4B8B0 100%);
 }
+
+/* Custom coffee-themed scrollbar */
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5; /* Light coffee */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6f4e37; /* Coffee brown */
+  border-radius: 10px;
+  border: 2px solid #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5b3d29; /* Darker coffee on hover */
+}
