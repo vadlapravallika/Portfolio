@@ -49,3 +49,33 @@ h1, h2, h3, h4, h5, h6 {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #5b3d29; /* Darker coffee on hover */
 }
+/* Hide default cursor */
+body {
+  cursor: none;
+}
+
+/* Outer Circle - Coffee color with a delay effect */
+.cursor-outer {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #6F4E37; /* Coffee color */
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease-out;
+  z-index: 9999;
+}
+
+/* Inner Circle - Darker coffee color */
+.cursor-inner {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background-color: #4E3620; /* Darker coffee color */
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.05s ease-out;
+  z-index: 9999;
+}

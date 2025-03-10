@@ -32,7 +32,8 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
             animate={{ opacity: 1, x: 0 }}
             className="flex-shrink-0"
           >
-            <span className="font-marcellus text-2xl text-coffee-800">Portfolio</span>
+            <a href="#">
+         <span className="font-marcellus text-2xl text-coffee-800 hover:underline cursor-pointer">Pravallika Vadla </span></a>
           </motion.div>
 
           {/* Desktop Menu */}
