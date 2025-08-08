@@ -9,6 +9,14 @@ const Projects = () => {
 
   const projects = [
     {
+      title: '🐶 Fetch Dogadoption APP',
+      description: 'A responsive, modern React application that allows users to explore adoptable dogs, filter based on preferences, save favorites, and find their perfect match! Built with React, TypeScript, React Query, Tailwind CSS, and modular components.',
+      tech: ['React', 'TypeScript', 'React Query', 'Tailwind CSS', 'Modular Components'],
+      github: 'https://github.com/vadlapravallika/Dogadoption_App',
+      live: 'https://dogadoption-app.vercel.app/',
+      image: 'https://images.unsplash.com/photo-1450778869180-41d0601e046e?auto=format&fit=crop&w=1000&q=80',
+    },
+    {
       title: 'Inventory Management System',
       description: 'JavaFX-based inventory system with MySQL integration, implementing CRUD operations and PDF invoice generation.',
       tech: ['JavaFX', 'MySQL', 'MVC', 'PDF Generation'],
