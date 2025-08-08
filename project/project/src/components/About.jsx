@@ -25,25 +25,47 @@ const About = () => {
 
   const experience = [
     {
-      role: "Associate Systems Engineer",
-      company: "Tata Consultancy Services",
-      location: "Hyderabad, India",
-      period: "May 2022 – July 2023",
+      role: "Software Developer",
+      company: "Anu Tech Solutions, LLC",
+      location: "Michigan",
+      period: "Jun 2025 – Present",
+      skills: "Java, React.js, Node.js, RESTful APIs, Microservices, AWS, CI/CD, Docker, Agile",
       responsibilities: [
-        "Designed 30+ responsive web pages using React.js, HTML, CSS, and PHP, enhancing user engagement by 25%",
-        "Developed secure RESTful APIs integrated with Spring Boot, improving backend performance and scalability",
-        "Collaborated with teams to troubleshoot issues, optimizing performance and reducing system downtime by 20%"
+        "Developing and enhancing enterprise-grade applications using Java, React.js, RESTful APIs, and microservices architecture",
+        "Designing scalable, secure, and maintainable components with a focus on performance and cloud readiness",
+        "Collaborating cross-functionally in Agile teams to deliver high-quality features and production issue resolutions",
+        "Implementing CI/CD pipelines and containerized deployments to ensure development consistency and rapid releases",
+        "Optimizing backend services with Node.js and integrating AWS solutions for cloud-native scalability"
       ]
     },
     {
-      role: "System Administrator",
-      company: "Wipro Technologies",
-      location: "Hyderabad, India",
-      period: "Aug 2019 – Apr 2021",
+      role: "Associate Systems Engineer",
+      company: "TCS",
+      location: "Hyderabad, IND",
+      period: "May '21 - Jul '23",
+      skills: "React.js, JavaScript, SQL Server, Node.js, Express.js, HTML5, CSS3, REST APIs, Test Automation, Git, CI/CD, Postman, Jest",
       responsibilities: [
-        "Resolved 95% of technical issues for Outlook, O365, and Global Protect at the 1st and 2nd support levels",
-        "Managed 500+ user accounts and maintained 99.9% system uptime through efficient Windows OS and network troubleshooting",
-        "Delivered IT support for ICICI Bank, ensuring efficient issue resolution using the Finacle ticketing system"
+        "Designed and developed 5+ scalable full-stack web applications using React.js (frontend) and Node.js/Express.js (backend), supporting 10,000+ daily users",
+        "Integrated 15+ RESTful APIs for secure and performant data flow across microservices",
+        "Improved page load time by 30% and reduced latency in legacy systems by refactoring code and optimizing data retrieval",
+        "Implemented CI/CD pipelines using GitHub Actions, reducing manual deployment effort by 40%",
+        "Wrote unit and integration tests using Jest and Postman, increasing test coverage by 35%",
+        "Collaborated across Agile teams for sprint planning, estimations, and retrospectives, contributing to 100% sprint goal completion for 6+ months",
+        "Partnered with QA to ensure business compliance and bug resolution within SLA (95%)"
+      ]
+    },
+    {
+      role: "Frontend Developer",
+      company: "Wipro Technologies",
+      location: "Hyderabad, IND",
+      period: "Aug '19 - Apr '21",
+      skills: "React.js, Python, SQL Server, HTML5, CSS3",
+      responsibilities: [
+        "Developed 20+ responsive UI components using React.js, HTML5, and CSS3 for enterprise banking tools, enhancing user accessibility and experience",
+        "Worked closely with backend teams to integrate RESTful services, enabling real-time account and transaction updates",
+        "Ensured 100% cross-browser compatibility and mobile responsiveness, leading to a 15% increase in internal user adoption",
+        "Participated in Agile ceremonies including daily standups, sprint demos, and retrospectives with a team of 7 engineers",
+        "Performed manual and automated testing using in-house scripts, reducing UI-related bugs by 25% pre-release"
       ]
     }
   ];
@@ -140,7 +162,12 @@ const About = () => {
                   <h4 className="font-bold text-coffee-800">{exp.role}</h4>
                   <p className="text-coffee-600">{exp.company}</p>
                   <p className="text-coffee-500">{exp.location}</p>
-                  <p className="text-coffee-500 mb-3">{exp.period}</p>
+                  <p className="text-coffee-500 mb-2">{exp.period}</p>
+                  {exp.skills && (
+                    <p className="text-coffee-600 text-sm mb-3 italic">
+                      <span className="font-semibold">Skills:</span> {exp.skills}
+                    </p>
+                  )}
                   <ul className="list-disc list-inside space-y-2">
                     {exp.responsibilities.map((resp, i) => (
                       <li key={i} className="text-coffee-700">{resp}</li>
